@@ -1,4 +1,12 @@
 body {
-    background: navy;
-    color: orange;
+    background:  rgb(134, 206, 194);
+    color: rgb(88, 53, 21);
+}
+p {
+    margin: 0;
+    text-indent: 3ch;
+}
+ul {
+    list-style-type: circle;
+    list-style-position: inherit;
 }

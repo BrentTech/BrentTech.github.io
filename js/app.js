@@ -1,5 +1,6 @@
 'use strict';
 
+
 //collect user data and greeting message
 alert('Welcome! Let\'s play a game to see how well you know me!');
 
@@ -43,8 +44,8 @@ if (answerThree === 'no' || answerThree === 'n') {
     alert('Very good! I live in Bothell, WA.');
     console.log(username + ' has gotten the third question correct.');
 } else {
-    alert('I am sorry ' + username + '. I actually live in Bothell, WA.')
-    console.log(username + ' has answered the third question incorrectly.')    
+    alert('I am sorry ' + username + '. I actually live in Bothell, WA.');
+    console.log(username + ' has answered the third question incorrectly.');
 }
 
 
