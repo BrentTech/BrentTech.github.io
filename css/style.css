@@ -8,13 +8,13 @@ body {
 
 h1{
     font-size: 2em;
+    text-align: center;
 }
 
 h2{
     font-size: 1.5em;
     padding-top: .75em;
     padding-bottom: .25em;
-    text-indent: 3ch
 }
 
 p {
@@ -53,4 +53,8 @@ img {
 button {
     padding: 1em;
     background-color: rgb(201, 137, 0);
+}
+
+#bio {
+    text-indent: 3ch;
 }
