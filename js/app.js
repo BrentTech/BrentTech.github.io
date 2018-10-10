@@ -1,6 +1,6 @@
 'use strict';
 
-
+function knowMeGame() {
 //collect user data and greeting message
 alert('Welcome! Let\'s play a game to see how well you know me!');
 
@@ -72,4 +72,5 @@ if (answerFive === 'yes' || answerFive === 'y') {
 } else {
     alert('You couldn\'t be more wrong.');
     console.log(username + ' has answered the fifth and final question incorrectly.');   
+}
 }
