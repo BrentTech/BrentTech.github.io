@@ -35,9 +35,9 @@ ul {
 img {
     border-radius: 10%;
     width: 35%;
-    height: auto;
-    padding-left: 2em;   
+    height: auto;   
     margin-left: 2px;
+    float: right;
  }
 
 ol {
