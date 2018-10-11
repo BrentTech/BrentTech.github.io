@@ -3,18 +3,20 @@ body {
     color: rgb(37, 37, 34);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 100%;
-    padding: 10em;
+    margin: 10em;
+    line-height: 1.25em;
 }
 
 h1{
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
 }
 
 h2{
     font-size: 1.5em;
-    padding-top: .75em;
-    padding-bottom: .25em;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    padding: 1px;
 }
 
 p {
@@ -25,19 +27,25 @@ p {
 
 ul {
     list-style: circle;
-    list-style-position: inside;
     font-size: 1em;
-    line-height: 1.5em;
     box-align: left;
-    padding-left: 2em;
+    margin-left: 2em;
 }
+
+img {
+    border-radius: 10%;
+    width: 35%;
+    height: auto;
+    padding-left: 2em;   
+    margin-left: 2px;
+ }
 
 ol {
     list-style-type: decimal;
     font-size: 1em;
     line-height: 1.5em;
     box-align: left;
-    padding-left: 2em;
+    margin-left: 2em;
 }
 
 table {
@@ -46,21 +54,12 @@ table {
 
 td {
     width: 20%;
-}
-
-img {
-    width: 35%;
-    height: auto;
-    padding-left: 2em;
+    border-left: 2px solid rgb(37, 37, 34);
+    padding-left: .25em;
 }
 
 .important {
     font-weight: bold;
-}
-
-button {
-    padding: 1em;
-    background-color: rgb(201, 137, 0);
 }
 
 #bio {
