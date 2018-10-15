@@ -3,8 +3,9 @@
 // Continue to improve CSS. Consider cap fix for prompts.
 
 //collect user data and greeting message
-function guessingGame()
-alert('Welcome! Let\'s play a game to see how well you know me!');
+function guessingGame() {
+
+  alert('Welcome! Let\'s play a game to see how well you know me!');
 
   var username = prompt('First of all, what is your name?');
   console.log('User is registered as ' + username + '.');
@@ -148,4 +149,4 @@ alert('Welcome! Let\'s play a game to see how well you know me!');
     console.log(numberOfCorrect + ' out of ' + numberOfQuestions + 'questions were answered correctly by ' + username + '.');
   }
   scoreKeeper();
-  
+}
