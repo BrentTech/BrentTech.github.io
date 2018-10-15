@@ -1,15 +1,29 @@
 body {
-    background:  rgb(235, 214, 144);
+    background:  rgb(247, 234, 193);
     color: rgb(37, 37, 34);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 100%;
-    margin: 10em;
-    line-height: 1.25em;
+    margin: 5em;
+    line-height: 1.3em;
+}
+
+aside {
+    float: right;
+    width: 35%;
+    margin: 2em;
+    padding: 2%;
+}
+
+main {
+    float: left;
+    width: 50%;
+    margin: 2em;
+    padding: 1em;
 }
 
 h1{
     font-size: 2.5em;
-    text-align: center;
+    margin: 2px auto;
+    display: inline-block;
 }
 
 h2{
@@ -29,21 +43,25 @@ ul {
     list-style: circle;
     font-size: 1em;
     box-align: left;
+    line-height: 1.4em;
     margin-left: 2em;
 }
 
 img {
-    border-radius: 10%;
-    width: 35%;
+    border-radius: 8%;
+    width: 80%;
     height: auto;   
-    margin-left: 2px;
-    float: right;
+    margin: 10px;
+ }
+
+ figure {
+     padding: 10px;
  }
 
 ol {
     list-style-type: decimal;
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.4em;
     box-align: left;
     margin-left: 2em;
 }
@@ -54,7 +72,6 @@ table {
 
 td {
     width: 20%;
-    border-left: 2px solid rgb(37, 37, 34);
     padding-left: .25em;
 }
 
@@ -62,6 +79,18 @@ td {
     font-weight: bold;
 }
 
+.previous-job-title{
+    font-size: 1.05em;
+}
+
+#work-history {
+    line-height: 1.6em;
+}
+
 #bio {
     text-indent: 3ch;
+}
+
+#name-wrapper {
+    text-align: center;
 }
